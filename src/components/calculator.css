@@ -5,19 +5,21 @@ body{
 button {
     width: 3em;
     height: 3em;
-    font-size: 1.5em;
+    font-size: 22px;
     border: none;
     border-radius: 2em;
     margin: 0.3em;
     background-color: white;
     color: black;
     text-align: center;
-}
+} 
 
 .wrapper {
     background-color: black;
     border-radius: 3em;
     padding: 1em;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -34,7 +36,8 @@ button {
 .gray1 {
     background-color: #505050;
     color: white;
-    width: 160px;
+    justify-content: flex-start;
+    padding-right: 129px;
 }
 
 .result {

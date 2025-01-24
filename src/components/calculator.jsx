@@ -57,16 +57,17 @@ function calculate(){
 
     return (
         <div>
-          <Box m={5}/>
+          <Box m={5} />
           <Container maxWidth="xs">
         <div className='wrapper'>
             <Box m={12} />
             <h1 className='result'>{num}</h1>
-            <button onClick={clear}>AC</button>
 
-            <button onClick={changeSign}>+/-</button>
+            <button className="ac" onClick={clear}>AC</button>
 
-            <button onClick={porcentage}>%</button>
+            <button className="plus-minus" onClick={changeSign}>+/-</button>
+
+            <button className="percent" onClick={porcentage}>%</button>
 
             <button className='orange' onClick={operatorHandler} value="/">/</button>
 
@@ -97,7 +98,7 @@ function calculate(){
             <button className='gray1' onClick={inputNum} value={0}>0</button>
 
             <button className='gray'onClick={inputNum} value={"."}>,</button>
-            
+
             <button className='orange' onClick={calculate}>=</button>
         </div>
         </Container>
