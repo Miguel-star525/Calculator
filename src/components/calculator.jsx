@@ -23,11 +23,11 @@ const Calculator = () => {
         setNum(0);
     }
 
-function porcentage(){  //'%'
+function porcentage(){ 
     setNum(num / 100);
 }
 
-function changeSign(){  //'+/-'
+function changeSign(){
     if(num>0){
         setNum(-num);
     }else{
@@ -106,4 +106,4 @@ function calculate(){
     );
 }
 
-export default Calculator;
+export default Calculator
